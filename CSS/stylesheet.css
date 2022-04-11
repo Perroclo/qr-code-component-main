@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&display=swap');
+
+*{
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+
+}
+
+:root{
+
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: rgb(123, 135, 157);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+
+
+body{
+background-color: var(--Light-gray);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-size: 15px;
+}
+
+.container{
+background-color: white;
+font-family:'Outfit', sans-serif;
+margin-right: 7%;
+    margin-left: 7%;
+    border-radius: 15px;
+    max-width: 325px;
+
+
+}
+
+.imagen{
+border-radius: 15px;
+height: 294px;
+width: 100%
+}
+
+.zonaImagen{
+
+display: flex;
+justify-content: center;
+padding: 19px;
+}
+
+h2,h3{
+
+padding: 4px 36px 20px 36px;
+text-align: center;
+
+}
+
+h3{
+font-size: 1rem;
+font-weight: 100;
+color: var(--Grayish-blue);
+
+}
+
+.attribution{
+font-size: .7rem;
+text-align: center;
+}
+
